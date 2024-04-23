@@ -1,0 +1,36 @@
+/* Genel sayfa stilini belirler */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Metin fontu Arial, Helvetica, ya da bir sans-serif fontu olarak ayarlanır. */
+    text-align: center; /* Metinlerin sayfa ortasında hizalanması sağlanır. */
+}
+
+/* Oyun tahtasının stilini belirler */
+#board {
+    height: 540px; /* Tahta yüksekliği 540 piksel olarak ayarlanır. */
+    width: 630px; /* Tahta genişliği 630 piksel olarak ayarlanır. */
+    background-color: rgb(235, 14, 150); /* Tahta arka plan rengi belirlenir. */
+    border: 10px solid rgb(0, 255, 0); /* Tahtanın kenarlığı ve rengi belirlenir. */
+    margin: 0 auto; /* Tahtanın sayfa içinde yatay olarak ortalanması sağlanır. */
+    display: flex; /* Flexbox modeli kullanılarak içeriklerin düzeni sağlanır. */
+    flex-wrap: wrap; /* İçeriklerin sığmaması durumunda sarma (wrap) yapılır. */
+}
+
+/* Karelerin stilini belirler */
+.tile {
+    height: 70px; /* Her karenin yüksekliği 70 piksel olarak ayarlanır. */
+    width: 70px; /* Her karenin genişliği 70 piksel olarak ayarlanır. */
+    margin: 5px; /* Kareler arasındaki boşluk 5 piksel olarak ayarlanır. */
+    background-color: rgb(0, 0, 0); /* Kare arka plan rengi belirlenir. */
+    border-radius: 50%; /* Kareye daire şekli verilir. */
+    border: 5px solid navy; /* Kare kenarlığı ve rengi belirlenir. */
+}
+
+/* Kırmızı sembol stilini belirler */
+.red-piece {
+    background-color: rgb(255, 117, 5); /* Kırmızı sembol arka plan rengi belirlenir. */
+}
+
+/* Sarı sembol stilini belirler */
+.yellow-piece {
+    background-color: rgb(3, 253, 157); /* Sarı sembol arka plan rengi belirlenir. */
+}
